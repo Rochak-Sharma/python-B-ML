@@ -32,7 +32,7 @@ const makeCommit = async (n) => {
     await git.commit(DATE, FILE_PATH, { '--date': DATE });
   }
 
-  // Push changes to the remote repository after all commits are made
+  // Push changes to the remote repository aftesadfsdr all commits are made
   try {
     await git.push(['-u', 'origin', 'main']);
     console.log('Pushed changes to remote repository');
